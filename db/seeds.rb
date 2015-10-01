@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+ Trail.create!(title: 'Bernal Hill', description: 'Great views of the city!', city: 'San Francisco', state: 'CA', length: '2')
+ Trail.create!(title: 'Twin Peaks', description: 'Lots of tourists.', city: 'San Francisco', state: 'CA', length: '3')
